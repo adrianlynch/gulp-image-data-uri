@@ -29,20 +29,20 @@
   },
   "homepage": "https://github.com/adam-lynch/gulp-image-data-uri",
   "devDependencies": {
+    "chai": "~3.4.0",
+    "coffee-script": "~1.10.0",
+    "eol": "~0.2.0",
+    "glob-to-vinyl": "~1.0.0",
     "gulp": "~3.9.0",
     "gulp-coffee": "~2.3.1",
     "gulp-load-plugins": "~1.0.0",
     "gulp-mocha": "~2.1.3",
-    "chai": "~3.4.0",
-    "glob-to-vinyl": "~1.0.0",
-    "coffee-script": "~1.10.0",
-    "eol": "~0.2.0",
     "handlebars": "~4.0.4",
     "nunjucks": "~2.1.0"
   },
   "dependencies": {
-    "through2": "~2.0.0",
+    "datauri.template": "git+https://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:z-oauth-basic@github.com/adrianlynch/datauri.template#fixed_for_gulp_data_image_uri",
     "gulp-util": "~3.0.7",
-    "datauri.template": "git://github.com/adam-lynch/datauri.template#fixed_for_gulp_data_image_uri"
+    "through2": "~2.0.0"
   }
 }
